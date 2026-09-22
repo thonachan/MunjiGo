@@ -94,32 +94,32 @@ public class Forgotpw extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setBackground(new java.awt.Color(121, 50, 23));
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 3, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Forgot Password");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 40, 469, -1));
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Email");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 155, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Your Security Question");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 207, -1, -1));
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Your Answer");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 258, -1, -1));
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Enter Your New Password");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 307, -1, -1));
 
-        txtEmail.setForeground(new java.awt.Color(123, 51, 0));
+        txtEmail.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         txtEmail.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtEmailKeyReleased(evt);
@@ -127,7 +127,7 @@ public class Forgotpw extends javax.swing.JFrame {
         });
         getContentPane().add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(479, 154, 347, -1));
 
-        txtSecQue.setForeground(new java.awt.Color(123, 51, 0));
+        txtSecQue.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         txtSecQue.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtSecQueKeyReleased(evt);
@@ -135,7 +135,7 @@ public class Forgotpw extends javax.swing.JFrame {
         });
         getContentPane().add(txtSecQue, new org.netbeans.lib.awtextra.AbsoluteConstraints(479, 206, 347, -1));
 
-        txtAnswer.setForeground(new java.awt.Color(123, 51, 0));
+        txtAnswer.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         txtAnswer.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtAnswerKeyReleased(evt);
@@ -143,7 +143,7 @@ public class Forgotpw extends javax.swing.JFrame {
         });
         getContentPane().add(txtAnswer, new org.netbeans.lib.awtextra.AbsoluteConstraints(479, 257, 347, -1));
 
-        txtNewPassword.setForeground(new java.awt.Color(123, 51, 0));
+        txtNewPassword.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         txtNewPassword.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtNewPasswordKeyReleased(evt);
@@ -152,7 +152,7 @@ public class Forgotpw extends javax.swing.JFrame {
         getContentPane().add(txtNewPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(479, 306, 347, -1));
 
         btnUpdate.setBackground(new java.awt.Color(121, 50, 23));
-        btnUpdate.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnUpdate.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         btnUpdate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/update.jpg"))); // NOI18N
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
@@ -163,7 +163,7 @@ public class Forgotpw extends javax.swing.JFrame {
         getContentPane().add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(479, 361, -1, -1));
 
         btnClear.setBackground(new java.awt.Color(121, 50, 23));
-        btnClear.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnClear.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         btnClear.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/clea.jpg"))); // NOI18N
         btnClear.setText("Clear");
         btnClear.addActionListener(new java.awt.event.ActionListener() {
@@ -174,7 +174,7 @@ public class Forgotpw extends javax.swing.JFrame {
         getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(624, 361, -1, -1));
 
         btnExit.setBackground(new java.awt.Color(121, 50, 23));
-        btnExit.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnExit.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         btnExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/ei.jpg"))); // NOI18N
         btnExit.setText("Exit");
         btnExit.addActionListener(new java.awt.event.ActionListener() {
@@ -185,7 +185,7 @@ public class Forgotpw extends javax.swing.JFrame {
         getContentPane().add(btnExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(759, 361, -1, -1));
 
         btnSignup.setBackground(new java.awt.Color(121, 50, 23));
-        btnSignup.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnSignup.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         btnSignup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/signup.png"))); // NOI18N
         btnSignup.setText("Signup");
         btnSignup.addActionListener(new java.awt.event.ActionListener() {
@@ -196,7 +196,7 @@ public class Forgotpw extends javax.swing.JFrame {
         getContentPane().add(btnSignup, new org.netbeans.lib.awtextra.AbsoluteConstraints(479, 428, -1, -1));
 
         btnLogin.setBackground(new java.awt.Color(121, 50, 23));
-        btnLogin.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnLogin.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         btnLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/OIP.jpg"))); // NOI18N
         btnLogin.setText("Login");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
@@ -207,7 +207,7 @@ public class Forgotpw extends javax.swing.JFrame {
         getContentPane().add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 430, -1, -1));
 
         btnsearch.setBackground(new java.awt.Color(121, 50, 23));
-        btnsearch.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnsearch.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         btnsearch.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/searr.png"))); // NOI18N
         btnsearch.setText("Search");
         btnsearch.addActionListener(new java.awt.event.ActionListener() {
@@ -217,6 +217,8 @@ public class Forgotpw extends javax.swing.JFrame {
         });
         getContentPane().add(btnsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(889, 151, -1, -1));
 
+        jLabel7.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel7.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Screenshot (172).png"))); // NOI18N
         jLabel7.setText("jLabel7");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-70, -300, -1, -1));

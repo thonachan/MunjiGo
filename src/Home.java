@@ -62,7 +62,7 @@ public class Home extends javax.swing.JFrame {
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Logou.jpg"))); // NOI18N
         jButton1.setText("Logout");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -70,9 +70,9 @@ public class Home extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 16, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, -1, -1));
 
-        jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/order-placed-purchased-icon.png"))); // NOI18N
         jButton2.setText("Place Order");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -80,9 +80,9 @@ public class Home extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 20, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 20, -1, -1));
 
-        jButton3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/VEW.png"))); // NOI18N
         jButton3.setText("View Bill & Order Placed Details");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -90,9 +90,9 @@ public class Home extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 20, -1, -1));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 20, -1, -1));
 
-        jButton4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton4.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/changepass.png"))); // NOI18N
         jButton4.setText("Change Password");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -100,9 +100,9 @@ public class Home extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 20, -1, -1));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 20, -1, -1));
 
-        jButton6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton6.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Exi.png"))); // NOI18N
         jButton6.setText("Exit");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -110,9 +110,9 @@ public class Home extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1189, 16, -1, -1));
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 20, -1, -1));
 
-        btnManageCategory.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btnManageCategory.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         btnManageCategory.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/manage.jpg"))); // NOI18N
         btnManageCategory.setText("Manage Category");
         btnManageCategory.addActionListener(new java.awt.event.ActionListener() {
@@ -120,9 +120,9 @@ public class Home extends javax.swing.JFrame {
                 btnManageCategoryActionPerformed(evt);
             }
         });
-        getContentPane().add(btnManageCategory, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 640, -1, -1));
+        getContentPane().add(btnManageCategory, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 640, -1, -1));
 
-        btnNewProduct.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btnNewProduct.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         btnNewProduct.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/newprod.jpg"))); // NOI18N
         btnNewProduct.setText("New Product");
         btnNewProduct.addActionListener(new java.awt.event.ActionListener() {
@@ -130,9 +130,9 @@ public class Home extends javax.swing.JFrame {
                 btnNewProductActionPerformed(evt);
             }
         });
-        getContentPane().add(btnNewProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 640, -1, -1));
+        getContentPane().add(btnNewProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 640, -1, -1));
 
-        btnViewEditDelete.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btnViewEditDelete.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         btnViewEditDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/VED.png"))); // NOI18N
         btnViewEditDelete.setText("View, Edit & Delete Product");
         btnViewEditDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -140,9 +140,9 @@ public class Home extends javax.swing.JFrame {
                 btnViewEditDeleteActionPerformed(evt);
             }
         });
-        getContentPane().add(btnViewEditDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 640, -1, -1));
+        getContentPane().add(btnViewEditDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 640, -1, -1));
 
-        btnVerifyUsers.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btnVerifyUsers.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         btnVerifyUsers.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/veri.png"))); // NOI18N
         btnVerifyUsers.setText("Verify Users");
         btnVerifyUsers.addActionListener(new java.awt.event.ActionListener() {
@@ -150,11 +150,12 @@ public class Home extends javax.swing.JFrame {
                 btnVerifyUsersActionPerformed(evt);
             }
         });
-        getContentPane().add(btnVerifyUsers, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 640, -1, -1));
+        getContentPane().add(btnVerifyUsers, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 640, -1, -1));
 
+        jLabel1.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Screenshot (172).png"))); // NOI18N
         jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-280, -80, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-270, -80, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

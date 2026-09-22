@@ -68,6 +68,7 @@ public class Signup extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -90,7 +91,7 @@ public class Signup extends javax.swing.JFrame {
         txtadress = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Screenshot (175).png"))); // NOI18N
         jLabel13.setText("jLabel13");
@@ -109,6 +110,9 @@ public class Signup extends javax.swing.JFrame {
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Screenshot (173).png"))); // NOI18N
         jLabel15.setText("jLabel15");
 
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Screenshot (172).png"))); // NOI18N
+        jLabel16.setText("jLabel16");
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -122,43 +126,43 @@ public class Signup extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Name");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 280, 73, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, 73, -1));
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Phone Number");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, 170, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 360, 170, -1));
 
         jLabel4.setBackground(new java.awt.Color(255, 255, 255));
         jLabel4.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Email");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 360, 71, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 400, 71, -1));
 
         jLabel5.setBackground(new java.awt.Color(255, 255, 255));
         jLabel5.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Address");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 400, 110, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 440, 110, -1));
 
         jLabel6.setBackground(new java.awt.Color(255, 255, 255));
         jLabel6.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Password");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 450, 118, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 480, 118, -1));
 
         jLabel7.setBackground(new java.awt.Color(255, 255, 255));
         jLabel7.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Security Question");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 500, 210, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 520, 210, -1));
 
         jLabel8.setBackground(new java.awt.Color(255, 255, 255));
         jLabel8.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Answer");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 540, 97, -1));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 560, 97, -1));
 
         btnsave.setBackground(new java.awt.Color(0, 204, 204));
         btnsave.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
@@ -216,7 +220,7 @@ public class Signup extends javax.swing.JFrame {
                 passwordKeyReleased(evt);
             }
         });
-        getContentPane().add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 450, 358, -1));
+        getContentPane().add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 470, 358, -1));
 
         txtphoneNumber.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         txtphoneNumber.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -224,7 +228,7 @@ public class Signup extends javax.swing.JFrame {
                 txtphoneNumberKeyReleased(evt);
             }
         });
-        getContentPane().add(txtphoneNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 320, 358, -1));
+        getContentPane().add(txtphoneNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 350, 358, -1));
 
         txtemail.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         txtemail.addActionListener(new java.awt.event.ActionListener() {
@@ -237,7 +241,7 @@ public class Signup extends javax.swing.JFrame {
                 txtemailKeyReleased(evt);
             }
         });
-        getContentPane().add(txtemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 360, 358, -1));
+        getContentPane().add(txtemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 390, 358, -1));
 
         txtName.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         txtName.addActionListener(new java.awt.event.ActionListener() {
@@ -250,7 +254,7 @@ public class Signup extends javax.swing.JFrame {
                 txtNameKeyReleased(evt);
             }
         });
-        getContentPane().add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 270, 358, -1));
+        getContentPane().add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 310, 358, -1));
 
         txtSecurityQ.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         txtSecurityQ.addActionListener(new java.awt.event.ActionListener() {
@@ -263,7 +267,7 @@ public class Signup extends javax.swing.JFrame {
                 txtSecurityQKeyReleased(evt);
             }
         });
-        getContentPane().add(txtSecurityQ, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 500, 358, -1));
+        getContentPane().add(txtSecurityQ, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 510, 358, -1));
 
         txtAnswer.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         txtAnswer.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -271,7 +275,7 @@ public class Signup extends javax.swing.JFrame {
                 txtAnswerKeyReleased(evt);
             }
         });
-        getContentPane().add(txtAnswer, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 540, 358, -1));
+        getContentPane().add(txtAnswer, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 550, 358, -1));
 
         txtadress.setFont(new java.awt.Font("Snap ITC", 1, 18)); // NOI18N
         txtadress.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -279,7 +283,7 @@ public class Signup extends javax.swing.JFrame {
                 txtadressKeyReleased(evt);
             }
         });
-        getContentPane().add(txtadress, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 400, 358, -1));
+        getContentPane().add(txtadress, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 430, 358, -1));
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(434, 95, -1, -1));
 
         jLabel11.setBackground(new java.awt.Color(255, 255, 255));
@@ -288,9 +292,9 @@ public class Signup extends javax.swing.JFrame {
         jLabel11.setText("MunjiGo Digital Foods");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 100, -1, -1));
 
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Screenshot (172).png"))); // NOI18N
-        jLabel16.setText("jLabel16");
-        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(-30, -160, -1, -1));
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Screenshot (172).png"))); // NOI18N
+        jLabel17.setText("jLabel17");
+        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(-120, -100, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -431,6 +435,7 @@ public class Signup extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

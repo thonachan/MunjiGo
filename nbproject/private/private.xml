@@ -4,22 +4,21 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/ViewEditDelete.java</file>
-            <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/da/DbOperations.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/NewProduct.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/Forgotpw.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/da/UserDa.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/ViewBillsOrderPlacedDetails.java</file>
-            <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/common/OpenPdf.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/Home.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/model/user.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/ChangePassword.java</file>
+            <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/arcade/food/ordering/ms/PlaceOrder.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/PlaceOrder.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/ManageCategory.java</file>
+            <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/arcade/food/ordering/ms/ArcadeFoodOrderingMs.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/Signup.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/Login.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/VerifyUsers.java</file>
             <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/images/Exi.png</file>
-            <file>file:/C:/Users/hp/OneDrive/Documents/NetBeansProjects/Arcade%20Food%20Ordering%20ms/src/da/ConnectionProvider.java</file>
         </group>
     </open-files>
 </project-private>
